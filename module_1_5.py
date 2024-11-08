@@ -14,8 +14,11 @@ spent_hours = 1.5
 course_name = "Python"
 # Время на одно задание
 time_for_one_task = spent_hours / homework_number
+#первый неправильный вариант вывода, оставляю, чтоб понять почему
 print("Курс:", course_name, ",", "всего задач: ", homework_number, ", затрачено часов: ",
       spent_hours, ", среднее время выполнения", time_for_one_task, "часа.")
+#второй верный вариант для проверки
 print(f"Курс: {course_name}, всего задач:{homework_number}, затрачено часов: {spent_hours}"
       f", среднее время выполнения {time_for_one_task} часа.")
+#строка из задания для контроля
 print("Курс: Python, всего задач:12, затрачено часов: 1.5, среднее время выполнения 0.125 часа.")
